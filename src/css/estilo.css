@@ -1,0 +1,76 @@
+label {
+    color: black;
+    width: 15%;
+    font-weight: arial;
+    font-size: 100%;
+}
+
+div {
+    margin: 0% 10% 0% 10%;
+    border-width: 40%;
+    background-color: rgb(250, 247, 247);
+    padding: 5%;
+}
+
+#fundo {
+    border-width: 100%;
+    border-style: outset;
+    border-color: rgb(252, 249, 245);
+    color: rgb(255, 248, 248);
+    padding: 1%;
+    border-bottom-width: 0px;
+    border-top-width: 0;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+
+.nasc {
+    width: 20%;
+    border-radius: 9px;
+}
+
+#sexo {
+    width: 140%;
+    font-size: 120%;
+    color: rgb(12, 12, 12);
+}
+
+#estadocivil {
+    width: 40%;
+    font-size: 120%;
+    border-radius: 9px;
+    color: rgb(12, 12, 12);
+}
+
+input {
+    font-size: 100%;
+    color: rgb(12, 12, 12);
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(250, 247, 247);
+    background-color: white;
+    box-sizing: 50%;
+}
+
+#button {
+    font-size: 80%;
+    border: center;
+    width: 15%;
+    color: black;
+    padding: 1.5%;
+    background-color: beige;
+}
+
+header {
+    text-align: center;
+    background: rgb(164, 206, 248);
+    padding: 24px;
+    top: 0;
+    left: 0;
+   border-width: 100%;
+    font-size: 240%;
+}
+

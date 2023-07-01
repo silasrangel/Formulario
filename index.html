@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulário</title>
+    <meta charset="UTF-8">
+    <meta  name='viewport' content='width=device-width'>
+  <link rel="stylesheet" type="text/css" href="./src/css/estilo.css"> 
+ 
+</head>
+    <body>
+        <header>
+            CADASTRO DE ESTÁGIO
+        </header>
+    <div>
+    <div>  
+        <form name="formulario" method="post" action="#" >
+
+        <label name="nome">Nome:</label> 
+        <input type="text" size="70"  value="" name="nome"required>
+    <br></br>
+
+    
+        <label name="curso">Curso:</label> 
+        <input type="text" size="70" name="curso"required>
+    <br></br>
+
+    
+        <label name="matrícula">Matrícula:</label>
+        <input type="number" name="Matrícula"required>
+        <label name="ano/período">Ano/Período:</label> 
+        <input type="text" size="08" name="Ano/Período"required>
+    <br></br>
+    
+
+        <label name="rg">RG :</label>
+        <input type="number" name="RG"required>
+        <label name="cpf">CPF:</label>
+        <input type="number" name="CPF"required><br></br>
+        <label name="datadenascimento">Data de Nascimento:</label>
+        <input type="date" name="nascimento" required>
+        <label for="estado civil">Estado Civil:</label>
+        <select><option value="Solteiro">Solteiro</option>
+        <option value="casado">Casado</option>
+        <option value="divorciado">Divorciado</option></select> <br></br>
+        <label name="sexo">Sexo:</label>
+        <input type="radio" name="sexo" value="m" required>Masculino
+        <input type="radio" name="sexo" value="f" required>Feminino
+    <br></br>
+    
+        <label name="telefone fixo">Telefone Fixo:</label>
+        <input type="phone" name="Telefone Fixo/Celular" required>
+        <label name="celular">Celular:</label>
+        <input type="phone" name="Telefone Fixo/Celular" required> 
+    <br></br>
+
+        <label name="email">Email:</label> 
+        <input type="email" name="email" placeholder="exemplo@exemplo com.br" required>
+    <br></br>
+
+        <label name="Nível de escolaridade">Nível de escolaridade:</label>
+        <input type="radio" name="formação" value="1"required>Ensino Médio
+        <input type="radio" name="formação" value="2"required>Superior
+        <input type="radio" name="formação" value="3"required>Pós Graduação
+    <br></br>
+
+        <label name="instituição">Instituição:</label>
+        <select><option value="uva">Univercidade Veiga de Almeida</option></select> 
+    <br></br>
+	    <label name="ingresso">Data de Ingresso:</label> 
+        <input type="date" name="ingresso" required>
+	    <label name="conclusao">Data de Conclusão:</label> 
+        <input type="date" name="conclusao" required><br><br>
+        <label name="interessenome">Áreas de Interesse:</label>
+	    <input type="checkbox" name="c1" value="música">Programação
+	    <input type="checkbox" name="c2" value="esporte">Web Design
+	    <input type="checkbox" name="c3" value="artes">Banco de Dados
+    <br></br>
+
+        <label name="endereço">Endereço:</label> 
+        <input type="text" name="endereço" size="50" required><br><br>
+        <label name="Número">Número:</label>
+        <input type="number" name="Número" required><br></br>
+        <label name="complemento">Complemento:</label>
+        <input type="text" name="complemento"  size="50"required>
+    <br></br>
+
+	   <label name="cep">CEP:</label>
+       <input type="number" name="cep" required>
+	   <label for="Região">Região: </label>
+       <select>
+	   <option value="Sudeste">Sudeste</option>
+	   <option value="Norte">Norte</option>
+	   <option value="Nordeste">Nordeste</option>
+	   <option value="Sul">Sul</option>
+	   <option value="Centro-Oeste">Centro-Oeste</option>
+	   <option value="Noroeste">Noroeste</option>
+       </select>
+    <br></br>
+
+      <h3 name="obs">Observações:</h3>
+      <textarea name="obs" wrap="hard" cols="100" rows="10" scroll="none" STYLE="resize: none;"  placeholder="Por quê você deve ser escolhido? Digite aqui..."></textarea>
+    <br></br>
+  
+     <div class="button">
+      <button onclick="geraralerta('Cadastro enviado com sucesso')" type="submit">Enviar</button>
+      <button type="submit">Limpar</button>
+      
+    </div> 
+
+     </div>
+    </div>   
+    </form>
+    <script src="./src/js/main.js"></script>
+    </body>
+</html>
+
+    
